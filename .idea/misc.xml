@@ -3,11 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter4/app/src/main/res/layout/activity_alert_dialog.xml" value="0.16799999999999998" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter4/app/src/main/res/layout/activity_kedua.xml" value="0.11865942028985507" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter4/app/src/main/res/layout/activity_latihan.xml" value="0.11865942028985507" />
+        <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter4/app/src/main/res/layout/activity_latihan_alert.xml" value="0.10822401614530777" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter4/app/src/main/res/layout/activity_main.xml" value="0.11865942028985507" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter4/app/src/main/res/layout/activity_pertama.xml" value="0.11865942028985507" />
+        <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter4/app/src/main/res/layout/custom_dialog.xml" value="0.10822401614530777" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter4/app/src/main/res/layout/fragment_2.xml" value="0.11865942028985507" />
+        <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter4/app/src/main/res/layout/fragment_alert_dialog.xml" value="0.1105072463768116" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter4/app/src/main/res/layout/fragment_first.xml" value="0.10822401614530777" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter4/app/src/main/res/layout/fragment_frament1.xml" value="0.11865942028985507" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter4/app/src/main/res/layout/fragment_second.xml" value="0.1105072463768116" />

@@ -7,23 +7,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".kedua.AlertDialogActivity">
 
     <Button
-        android:id="@+id/pertama"
-        android:text="pertama"
+        android:text="Alert Standart"
+        android:id="@+id/alertsatu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
     <Button
-        android:id="@+id/mini"
-        android:text="mini"
+        android:text="Alert Standart"
+        android:id="@+id/alertdua"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 
     <Button
-        android:id="@+id/kedua"
-        android:text="kedua"
+        android:text="Alert dismiss"
+        android:id="@+id/alerttiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Alert custom"
+        android:id="@+id/alertempat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Alert fragment"
+        android:id="@+id/alertlima"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 

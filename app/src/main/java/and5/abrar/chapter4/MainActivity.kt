@@ -1,5 +1,7 @@
 package and5.abrar.chapter4
 
+import and5.abrar.chapter4.kedua.AlertDialogActivity
+import and5.abrar.chapter4.kedua.LatihanAlert
 import and5.abrar.chapter4.miniceleng.Latihan1
 import and5.abrar.chapter4.pertama.Pertama
 import android.content.Intent
@@ -16,6 +18,9 @@ class MainActivity : AppCompatActivity() {
         }
         mini.setOnClickListener {
             startActivity(Intent(this,Latihan1::class.java))
+        }
+        kedua.setOnClickListener {
+            startActivity(Intent(this,AlertDialogActivity::class.java))
         }
     }
 }
