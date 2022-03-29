@@ -1,5 +1,6 @@
 package and5.abrar.chapter4
 
+import and5.abrar.chapter4.miniceleng.Latihan1
 import and5.abrar.chapter4.pertama.Pertama
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -12,6 +13,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         pertama.setOnClickListener {
             startActivity(Intent(this, Pertama::class.java))
+        }
+        mini.setOnClickListener {
+            startActivity(Intent(this,Latihan1::class.java))
         }
     }
 }

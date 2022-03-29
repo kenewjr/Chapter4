@@ -13,7 +13,7 @@
             android:name=".pertama.Kedua"
             android:exported="true" />
         <activity
-            android:name=".pertama.Latihan1"
+            android:name=".miniceleng.Latihan1"
             android:exported="true" />
         <activity
             android:name=".pertama.Pertama"

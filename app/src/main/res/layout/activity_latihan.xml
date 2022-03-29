@@ -1,53 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
-    android:gravity="center"
+
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".pertama.Latihan1">
+    tools:context=".miniceleng.Latihan1">
 
-    <TextView
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_weight=".7"
-        android:gravity="center_vertical"
-        android:text="Please select any one"
-        android:textColor="@color/white"/>
 
-    <TextView
-        android:id="@+id/txtOne"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_weight=".1"
-        android:gravity="center"
-        android:text="ONE"
-        />
-    <TextView
-        android:id="@+id/txtTwo"
-        android:layout_width="0dp"
-        android:layout_height="50dp"
-        android:layout_weight=".1"
-        android:gravity="center"
-        android:text="TWO"
-        />
-
-    <EditText
-        android:id="@+id/edit1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <Button
-        android:layout_below="@id/edit1"
-        android:id="@+id/muncul"
-        android:text="muncul toast"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <Button
-    android:layout_below="@id/muncul"
-    android:id="@+id/muncul1"
-    android:text="muncul snack"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"/>
-
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerView2"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_mini" />
 </RelativeLayout>
