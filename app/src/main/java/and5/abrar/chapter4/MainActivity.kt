@@ -1,9 +1,12 @@
 package and5.abrar.chapter4
 
 import and5.abrar.chapter4.kedua.AlertDialogActivity
+import and5.abrar.chapter4.kedua.AlertDialogFragment
 import and5.abrar.chapter4.kedua.LatihanAlert
 import and5.abrar.chapter4.miniceleng.Latihan1
 import and5.abrar.chapter4.pertama.Pertama
+import and5.abrar.chapter4.tugas.TugasActivty
+import and5.abrar.chapter4.tugas.TugasFragment
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -21,6 +24,12 @@ class MainActivity : AppCompatActivity() {
         }
         kedua.setOnClickListener {
             startActivity(Intent(this,AlertDialogActivity::class.java))
+        }
+        tugas.setOnClickListener {
+            startActivity(Intent(this,TugasActivty::class.java))
+        }
+        tugasfragment.setOnClickListener {
+            TugasFragment().show(supportFragmentManager, "abcx")
         }
     }
 }
