@@ -3,6 +3,8 @@ package and5.abrar.chapter4
 import and5.abrar.chapter4.kedua.AlertDialogActivity
 import and5.abrar.chapter4.kedua.AlertDialogFragment
 import and5.abrar.chapter4.kedua.LatihanAlert
+import and5.abrar.chapter4.ketiga.DataAppActivty
+import and5.abrar.chapter4.ketiga.DataMahassiwaActivty
 import and5.abrar.chapter4.miniceleng.Latihan1
 import and5.abrar.chapter4.pertama.Pertama
 import and5.abrar.chapter4.tugas.TugasActivty
@@ -30,6 +32,12 @@ class MainActivity : AppCompatActivity() {
         }
         tugasfragment.setOnClickListener {
             TugasFragment().show(supportFragmentManager, "abcx")
+        }
+        btndata.setOnClickListener {
+            startActivity(Intent(this,DataMahassiwaActivty::class.java))
+        }
+        btnapp.setOnClickListener {
+            startActivity(Intent(this,DataAppActivty::class.java))
         }
     }
 }

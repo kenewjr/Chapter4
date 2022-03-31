@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Chapter4">
         <activity
+            android:name=".ketiga.DataAppActivty"
+            android:exported="false" />
+        <activity
+            android:name=".ketiga.DataMahassiwaActivty"
+            android:exported="false" />
+        <activity
             android:name=".tugas.TugasActivty"
             android:exported="false" />
         <activity

@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter4/app/src/main/res/layout/activity_alert_dialog.xml" value="0.16799999999999998" />
+        <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter4/app/src/main/res/layout/activity_data_app_activty.xml" value="0.17074275362318841" />
+        <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter4/app/src/main/res/layout/activity_data_mahassiwa_activty.xml" value="0.2" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter4/app/src/main/res/layout/activity_kedua.xml" value="0.11865942028985507" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter4/app/src/main/res/layout/activity_latihan.xml" value="0.11865942028985507" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter4/app/src/main/res/layout/activity_latihan_alert.xml" value="0.10822401614530777" />
@@ -17,6 +19,8 @@
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter4/app/src/main/res/layout/fragment_frament1.xml" value="0.11865942028985507" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter4/app/src/main/res/layout/fragment_second.xml" value="0.1105072463768116" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter4/app/src/main/res/layout/fragment_tugas.xml" value="0.1766304347826087" />
+        <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter4/app/src/main/res/layout/item_app_adapter.xml" value="0.17074275362318841" />
+        <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter4/app/src/main/res/layout/item_mhs_adapter.xml" value="0.264" />
         <entry key="..\:/kuliah/kampus-merdeka/materi/binar/android-studio/Chapter4/app/src/main/res/layout/tugas_dialog.xml" value="0.10822401614530777" />
       </map>
     </option>
