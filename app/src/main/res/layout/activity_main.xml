@@ -9,6 +9,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+
     <Button
         android:id="@+id/pertama"
         android:text="pertama"
@@ -48,6 +49,18 @@
     <Button
         android:id="@+id/btnapp"
         android:text="recylercoba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/SFact"
+        android:text="shared prefer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/Tfact"
+        android:text="test shared prefer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 

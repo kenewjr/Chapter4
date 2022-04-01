@@ -3,6 +3,8 @@ package and5.abrar.chapter4
 import and5.abrar.chapter4.kedua.AlertDialogActivity
 import and5.abrar.chapter4.kedua.AlertDialogFragment
 import and5.abrar.chapter4.kedua.LatihanAlert
+import and5.abrar.chapter4.keempat.Mainsf
+import and5.abrar.chapter4.keempat.Testsf
 import and5.abrar.chapter4.ketiga.DataAppActivty
 import and5.abrar.chapter4.ketiga.DataMahassiwaActivty
 import and5.abrar.chapter4.miniceleng.Latihan1
@@ -38,6 +40,12 @@ class MainActivity : AppCompatActivity() {
         }
         btnapp.setOnClickListener {
             startActivity(Intent(this,DataAppActivty::class.java))
+        }
+        SFact.setOnClickListener {
+            startActivity(Intent(this,Mainsf::class.java))
+        }
+        Tfact.setOnClickListener {
+            startActivity(Intent(this,Testsf::class.java))
         }
     }
 }
