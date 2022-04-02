@@ -9,8 +9,10 @@ import and5.abrar.chapter4.ketiga.DataAppActivty
 import and5.abrar.chapter4.ketiga.DataMahassiwaActivty
 import and5.abrar.chapter4.miniceleng.Latihan1
 import and5.abrar.chapter4.pertama.Pertama
+import and5.abrar.chapter4.tugas.SplashScreenActv
 import and5.abrar.chapter4.tugas.TugasActivty
 import and5.abrar.chapter4.tugas.TugasFragment
+import and5.abrar.chapter4.tugas.TugasShared
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -46,6 +48,9 @@ class MainActivity : AppCompatActivity() {
         }
         Tfact.setOnClickListener {
             startActivity(Intent(this,Testsf::class.java))
+        }
+        Tgsfact.setOnClickListener {
+            startActivity(Intent(this,SplashScreenActv::class.java))
         }
     }
 }

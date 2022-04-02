@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Chapter4">
         <activity
+            android:name=".tugas.TugasHomeShared"
+            android:exported="false" />
+        <activity
+            android:name=".tugas.SplashScreenActv"
+            android:exported="false" />
+        <activity
+            android:name=".tugas.TugasShared"
+            android:exported="true" />
+        <activity
             android:name=".keempat.Testsf"
             android:exported="false" />
         <activity
@@ -43,9 +52,9 @@
             android:name=".pertama.Pertama"
             android:exported="false" />
         <activity
-            android:screenOrientation="portrait"
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
